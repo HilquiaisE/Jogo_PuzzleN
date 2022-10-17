@@ -1,15 +1,11 @@
 package Game;
 
-import javax.swing.JFrame;
-import java.awt.BorderLayout;
-import Board.Tabuleiro;
+import UI.PuzzleN;
+
 
 public class Jogo {
 	public static void main(String[] args) {
-		
-		JFrame frame = new JFrame();
-		frame.add(new Tabuleiro(5, 550, 30), BorderLayout.CENTER);
-		frame.pack();
-		frame.setVisible(true);
+		PuzzleN jogo = new PuzzleN();
 	}
 }
+
